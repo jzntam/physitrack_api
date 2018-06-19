@@ -1,0 +1,150 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://staging.physitrack.com/api/v2/clients/7999/programs/spimyean/resend?via=email
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sat, 16 Jun 2018 00:50:50 GMT
+      content-type:
+      - application/json
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=dfa1c192c5ea86eee897175e2c4d4d0d21529110250; expires=Sun, 16-Jun-19
+        00:50:50 GMT; path=/; domain=.physitrack.com; HttpOnly
+      - _physitrack_session=czZoaG1LNFpXVzM5RlVIdjBCZzdPUzFnQWpGTUJSM3ByeDBFbDg1Q3VicFVvY2djaTFteTd3ZVlIY1F0ZE5JOHhUWnFKU2E5TWlrbk9xRk42K0xSdGZsTnVMSDcxTnl2WkVCajVkRG5JUFRyZzh0WG5TaE5nQ2N0eUNCYkR2eDZkSXFQeWFJNUhhbDNQVk5QYXMwZFRyRWNQZzRta1lzZkJVaWRQc2psSzhJUzZEcGtpamFtaFhqcDI0M0NFVC9FejVRMElIbzVOTVNrWWd4a0JkcUl5SWJxZVg4TTQ0ZDdTYU1wRGhkbmtiVUFIR1FxcVlsdDg0NlVJdkIyNXFsRUtmZzVkSzVsN0kyQ3o1anJJaGRVU2c9PS0tRHorUGw5UjBVajFuZEQ4SUpEZ3dBdz09--4568e109edf5df18f4390596f98d66ca73b4b738;
+        path=/; expires=Sat, 30 Jun 2018 00:50:55 -0000; secure; HttpOnly
+      status:
+      - 200 OK
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - 5940a1ca-dd0b-4718-9743-88ca3f5ccd53
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.043364'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42b948da48fb7973-SEA
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 00:50:51 GMT
+- request:
+    method: post
+    uri: https://staging.physitrack.com/api/v2/clients/7999/programs/spimyean/resend?via=sms
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 409
+      message: Conflict
+    headers:
+      date:
+      - Sat, 16 Jun 2018 00:51:13 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d55a25605d2fc6137366d7e381b6f5de71529110272; expires=Sun, 16-Jun-19
+        00:51:12 GMT; path=/; domain=.physitrack.com; HttpOnly
+      - _physitrack_session=elRUYWk2TGlDcjJON09KdWNqYWZoZ0l3ZVFmZW9qMWhVT3dVb0M4UlR4aG1Dbm0wQjYxYW45SWVZUFpaTlJ3bTBFZ0N1UThPckJRQXFoTExBZlFZeUpDeHM4d1JwSmFIQjZIVEdCZGFTYUhqZGlyeDB4L3g4bzJob3ZjM05rV0ZjQjdlOU91S3h3RHdUUlgrcTVucmRZQXk2eEs0WEwzbCt4REtES3I3Z0ZYaFpYOEw5RzhwZjg1QmJiSFBPTEVhVHN0Y1NFQXd3VXlmaWQyTDBMdDlvT25XU3pzMGQ5T2twbkNGZE5xZzgzN1ZteSt6dGlic29tRmExdGdBSVBYZzd6V0FiVitHcmg0UnB2RHQ0WWdRQXc9PS0tcG5mL0ZWZnRmeU1zOCs0TmttQ3JuUT09--140ccda89975bd0938e2efc1cb171ad019da144e;
+        path=/; expires=Sat, 30 Jun 2018 00:51:18 -0000; secure; HttpOnly
+      status:
+      - 409 Conflict
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - b617cb78-8457-44f4-b2f8-cd0aa67cf6df
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.039663'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42b9496388e679a9-SEA
+    body:
+      encoding: UTF-8
+      string: '{"errors":["Cannot send a sms to this client"]}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 00:51:13 GMT
+recorded_with: VCR 3.0.3

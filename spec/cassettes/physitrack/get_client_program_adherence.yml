@@ -1,0 +1,290 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/7972/programs/zppvoxgj/adherence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sat, 16 Jun 2018 18:24:00 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=dd5898ba9608d59b424bb5720e21f69fc1529173439; expires=Sun, 16-Jun-19
+        18:23:59 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 200 OK
+      cache-control:
+      - max-age=0, private, must-revalidate
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - a84678ab-3d9c-40f9-8741-06b9a0d676f8
+      x-download-options:
+      - noopen
+      etag:
+      - W/"92d176168a7e052d4c8181cd997450c3"
+      x-runtime:
+      - '0.028404'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42bf4f8ed9c079bb-SEA
+    body:
+      encoding: UTF-8
+      string: '{"avg_adherence_last_three_days":0,"avg_adherence":0,"days":[{"date":"2018-06-15T00:00:00Z","exercises":[]}]}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 18:24:00 GMT
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/12345/programs/zppvoxgj/adherence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Sat, 16 Jun 2018 18:24:00 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d8c019bc326e9ad497b677c88b870bb1b1529173440; expires=Sun, 16-Jun-19
+        18:24:00 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 404 Not Found
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - c2bcfa64-bc64-4ecb-93e2-d07d28802cfb
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.025660'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42bf4f9249a77973-SEA
+    body:
+      encoding: UTF-8
+      string: '{"errors":["Client with given id does not exist"]}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 18:24:00 GMT
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/12345/programs/nah_son/adherence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Sat, 16 Jun 2018 18:24:01 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d0fdf8ebf6687ca817c9c62a5f4262d531529173440; expires=Sun, 16-Jun-19
+        18:24:00 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 404 Not Found
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - 59c748da-7d00-4369-a3fc-5b08e9400d2c
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.021446'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42bf4f960d057991-SEA
+    body:
+      encoding: UTF-8
+      string: '{"errors":["Client with given id does not exist"]}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 18:24:01 GMT
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/7999/programs/zppvoxgj/adherence
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Sat, 16 Jun 2018 18:24:01 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=db2e90e960a9ffe87e4c71e63086ee6b51529173441; expires=Sun, 16-Jun-19
+        18:24:01 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 404 Not Found
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - 3fa9307b-0180-4900-bbc6-81b2b9338ee9
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.023890'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42bf4f99ff0879a3-SEA
+    body:
+      encoding: UTF-8
+      string: '{"errors":["Program with given access code does not exist"]}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 18:24:02 GMT
+recorded_with: VCR 3.0.3

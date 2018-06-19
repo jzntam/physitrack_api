@@ -1,5 +1,11 @@
 require "bundler/setup"
 require "physitrack_api"
+require 'vcr'
+
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/cassettes"
+  config.hook_into :fakeweb
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

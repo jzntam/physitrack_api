@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://staging.physitrack.com/api/v2/clients/7999/programs
+    body:
+      encoding: UTF-8
+      string: '{"template_id":1148,"external_id":"assign_program_id-123","start_date":"2018-06-19","num_weeks":12,"track_adherence":true,"track_pain_levels":true}'
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      date:
+      - Tue, 19 Jun 2018 07:32:11 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=de1b9fe8a199fed8742466d26f82abc051529393528; expires=Wed, 19-Jun-19
+        07:32:08 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 201 Created
+      cache-control:
+      - max-age=0, private, must-revalidate
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - d46d1f13-fb64-4d6a-ab8b-3ec48dde8946
+      x-download-options:
+      - noopen
+      etag:
+      - W/"5dccf7c5c60f2efb38c8ea0b531a3168"
+      x-runtime:
+      - '2.114138'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42d44cd288fabce6-SEA
+    body:
+      encoding: UTF-8
+      string: '{"id":7707,"external_id":"assign_program_id-123","template_id":1148,"name":"Foot
+        fracture","access_code":"xbxyopsp","start_date":"2018-06-19T00:00:00Z","end_date":"2018-09-10T00:00:00Z","track_adherence":true,"track_pain_levels":true,"access_code_sent_date":"2018-06-19T07:32:19Z","access_code_sent_via":"email","last_access_date":null}'
+    http_version: '1.1'
+  recorded_at: Tue, 19 Jun 2018 07:32:11 GMT
+recorded_with: VCR 3.0.3

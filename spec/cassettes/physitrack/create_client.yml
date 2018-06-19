@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://staging.physitrack.com/api/v2/clients/
+    body:
+      encoding: UTF-8
+      string: '{"external_id":"jane_app_id_123","first_name":"John","last_name":"Trevor","year_of_birth":1990,"gender":"m","email":"john@janeapp.com"}'
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      date:
+      - Tue, 19 Jun 2018 07:25:03 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d81a0e57658dec7a894f0c46c28817d1d1529393103; expires=Wed, 19-Jun-19
+        07:25:03 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 201 Created
+      cache-control:
+      - max-age=0, private, must-revalidate
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - e465b3bb-58e7-452b-8ac0-dd1b2e73f601
+      x-download-options:
+      - noopen
+      etag:
+      - W/"991ae06d52cea4cd6f189f481d3cdb61"
+      x-runtime:
+      - '0.122006'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42d442701c4479af-SEA
+    body:
+      encoding: UTF-8
+      string: '{"id":8235,"external_id":"jane_app_id_123","first_name":"John","last_name":"Trevor","year_of_birth":1990,"gender":"m","email":"john@janeapp.com","mobile_phone":null,"last_seen":null,"current_access_code":null,"program_end_date":null}'
+    http_version: '1.1'
+  recorded_at: Tue, 19 Jun 2018 07:25:03 GMT
+recorded_with: VCR 3.0.3

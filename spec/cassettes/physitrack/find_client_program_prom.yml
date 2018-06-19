@@ -1,0 +1,431 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/8205/programs/enyjeaor/proms/2166
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sat, 16 Jun 2018 19:23:45 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=dbf3867898a3921bda10b7c6870cd69011529177024; expires=Sun, 16-Jun-19
+        19:23:44 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 200 OK
+      cache-control:
+      - max-age=0, private, must-revalidate
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - 15722c32-318d-49f1-8d87-41d38bc21d3b
+      x-download-options:
+      - noopen
+      etag:
+      - W/"f372d613363f422ab6596677307add6a"
+      x-runtime:
+      - '0.084632'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42bfa7159e8b29ef-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJuYW1lIjoiQmFjayBQYWluIEluZGV4IiwiZGVzY3JpcHRpb24iOiJUaGlz
+        IHF1ZXN0aW9ubmFpcmUgd2lsbCBnaXZlIHlvdXIgcHJvdmlkZXIgaW5mb3Jt
+        YXRpb24gYWJvdXQgaG93IHlvdXIgYmFjayBjb25kaXRpb24gYWZmZWN0cyB5
+        b3VyIGV2ZXJ5ZGF5IGxpZmUuIFBsZWFzZSBhbnN3ZXIgZXZlcnkgIHNlY3Rp
+        b24gYnkgbWFya2luZyB0aGUgb25lIHN0YXRlbWVudCB0aGF0IGFwcGxpZXMg
+        dG8geW91LiAgSWYgdHdvIG9yIG1vcmUgc3RhdGVtZW50cyBpbiBvbmUgc2Vj
+        dGlvbiBhcHBseSwgcGxlYXNlIG1hcmsgdGhlIG9uZSBzdGF0ZW1lbnQgdGhh
+        dCBtb3N0IGNsb3NlbHkgZGVzY3JpYmVzIHlvdXIgcHJvYmxlbS4gRHVyaW5n
+        IHRoZSBwYXN0IDQgd2Vla3MuIiwicXVlc3Rpb25zIjpbeyJxdWVzdGlvbiI6
+        IlBhaW4gSW50ZW5zaXR5IiwidHlwZSI6Im11bHRpcGxlIiwib3B0aW9ucyI6
+        W3sib3B0aW9uIjoiVGhlIHBhaW4gY29tZXMgYW5kIGdvZXMgYW5kIGlzIHZl
+        cnkgbWlsZC4iLCJzY29yZSI6MC4wfSx7Im9wdGlvbiI6IlRoZSBwYWluIGlz
+        IG1pbGQgYW5kIGRvZXMgbm90IHZhcnkgbXVjaC4iLCJzY29yZSI6MS4wfSx7
+        Im9wdGlvbiI6IlRoZSBwYWluIGNvbWVzIGFuZCBnb2VzIGFuZCBpcyBtb2Rl
+        cmF0ZS4iLCJzY29yZSI6Mi4wfSx7Im9wdGlvbiI6IlRoZSBwYWluIGlzIG1v
+        ZGVyYXRlIGFuZCBkb2VzIG5vdCB2YXJ5IG11Y2guIiwic2NvcmUiOjMuMH0s
+        eyJvcHRpb24iOiJUaGUgcGFpbiBjb21lcyBhbmQgZ29lcyBhbmQgaXMgdmVy
+        eSBzZXZlcmUuIiwic2NvcmUiOjQuMH0seyJvcHRpb24iOiJUaGUgcGFpbiBp
+        cyB2ZXJ5IHNldmVyZSBhbmQgZG9lcyBub3QgdmFyeSBtdWNoLiIsInNjb3Jl
+        Ijo1LjB9XX0seyJxdWVzdGlvbiI6IlBlcnNvbmFsIENhcmUgKGUuZy4sIFdh
+        c2hpbmcsIERyZXNzaW5nKSIsInR5cGUiOiJtdWx0aXBsZSIsIm9wdGlvbnMi
+        Olt7Im9wdGlvbiI6IkkgZG8gbm90IGhhdmUgdG8gY2hhbmdlIG15IHdheSBv
+        ZiB3YXNoaW5nIG9yIGRyZXNzaW5nIGluIG9yZGVyIHRvIGF2b2lkIHBhaW4u
+        Iiwic2NvcmUiOjAuMH0seyJvcHRpb24iOiJJIGRvIG5vdCBub3JtYWxseSBj
+        aGFuZ2UgbXkgd2F5IG9mIHdhc2hpbmcgb3IgZHJlc3NpbmcgZXZlbiB0aG91
+        Z2ggaXQgY2F1c2VzIHNvbWUgcGFpbi4iLCJzY29yZSI6MS4wfSx7Im9wdGlv
+        biI6Ildhc2hpbmcgYW5kIGRyZXNzaW5nIGluY3JlYXNlcyB0aGUgcGFpbiBi
+        dXQgSSBtYW5hZ2Ugbm90IHRvIGNoYW5nZSBteSB3YXkgb2YgZG9pbmcgaXQu
+        Iiwic2NvcmUiOjIuMH0seyJvcHRpb24iOiJXYXNoaW5nIGFuZCBkcmVzc2lu
+        ZyBpbmNyZWFzZSB0aGUgcGFpbiBhbmQgSSBmaW5kIGl0IG5lY2Vzc2FyeSB0
+        byBjaGFuZ2UgbXkgd2F5IG9mIGRvaW5nIGl0LiIsInNjb3JlIjozLjB9LHsi
+        b3B0aW9uIjoiQmVjYXVzZSBvZiB0aGUgcGFpbiBJIGFuIHVuYWJsZSB0byBk
+        byBzb21lIHdhc2hpbmcgYW5kIGRyZXNzaW5nIHdpdGhvdXQgaGVscC4iLCJz
+        Y29yZSI6NC4wfSx7Im9wdGlvbiI6IkJlY2F1c2Ugb2YgdGhlIHBhaW4gSSBh
+        bSB1bmFibGUgdG8gZG8gYW55IHdhc2hpbmcgYW5kIGRyZXNzaW5nIHdpdGhv
+        dXQgaGVscC4iLCJzY29yZSI6NS4wfV19LHsicXVlc3Rpb24iOiJMaWZ0aW5n
+        IiwidHlwZSI6Im11bHRpcGxlIiwib3B0aW9ucyI6W3sib3B0aW9uIjoiSSBj
+        YW4gbGlmdCBoZWF2eSB3ZWlnaHRzIHdpdGhvdXQgZXh0cmEgcGFpbi4iLCJz
+        Y29yZSI6MC4wfSx7Im9wdGlvbiI6IkkgY2FuIGxpZnQgaGVhdnkgd2VpZ2h0
+        cyBidXQgaXQgY2F1c2VzIGV4dHJhIHBhaW4uIiwic2NvcmUiOjEuMH0seyJv
+        cHRpb24iOiJQYWluIHByZXZlbnRzIG1lIGZyb20gbGlmdGluZyBoZWF2eSB3
+        ZWlnaHRzIG9mZiB0aGUgZmxvb3IuIiwic2NvcmUiOjIuMH0seyJvcHRpb24i
+        OiJQYWluIHByZXZlbnRzIG1lIGZyb20gbGlmdGluZyBoZWF2eSB3ZWlnaHRz
+        IG9mZiB0aGUgZmxvb3IsIGJ1dCBJIGNhbiBtYW5hZ2UgaWYgdGhleSBhcmUg
+        Y29udmVuaWVudGx5IHBvc2l0aW9uZWQgKGVnIG9uIGEgdGFibGUpLiIsInNj
+        b3JlIjozLjB9LHsib3B0aW9uIjoiUGFpbiBwcmV2ZW50cyBtZSBmcm9tIGxp
+        ZnRpbmcgaGVhdnkgd2VpZ2h0cyBvZmYgdGhlIGZsb29yLCBidXQgSSBjYW4g
+        bWFuYWdlIGxpZ2h0IHRvIG1lZGl1bSB3ZWlnaHRzIGlmIHRoZXkgYXJlIGNv
+        bnZlbmllbnRseSBwb3NpdGlvbmVkLiIsInNjb3JlIjo0LjB9LHsib3B0aW9u
+        IjoiSSBjYW4gbGlmdCBvbmx5IHZlcnkgbGlnaHQgd2VpZ2h0cy4iLCJzY29y
+        ZSI6NS4wfV19LHsicXVlc3Rpb24iOiJXYWxraW5nIiwidHlwZSI6Im11bHRp
+        cGxlIiwib3B0aW9ucyI6W3sib3B0aW9uIjoiSSBoYXZlIG5vIHBhaW4gd2hp
+        bGUgd2Fsa2luZy4iLCJzY29yZSI6MC4wfSx7Im9wdGlvbiI6IkkgaGF2ZSBz
+        b21lIHBhaW4gd2hpbGUgd2Fsa2luZyBidXQgaXQgZG9lc27igJl0IGluY3Jl
+        YXNlIHdpdGggZGlzdGFuY2UuIiwic2NvcmUiOjEuMH0seyJvcHRpb24iOiJJ
+        IGNhbm5vdCB3YWxrIG1vcmUgdGhhbiAxIG1pbGUgd2l0aG91dCBpbmNyZWFz
+        aW5nIHBhaW4uIiwic2NvcmUiOjIuMH0seyJvcHRpb24iOiJJIGNhbm5vdCB3
+        YWxrIG1vcmUgdGhhbiDCvSBtaWxlIHdpdGhvdXQgaW5jcmVhc2luZyBwYWlu
+        LiIsInNjb3JlIjozLjB9LHsib3B0aW9uIjoiSSBjYW5ub3Qgd2FsayBtb3Jl
+        IHRoYW4gwrwgbWlsZSB3aXRob3V0IGluY3JlYXNpbmcgcGFpbi4iLCJzY29y
+        ZSI6NC4wfSx7Im9wdGlvbiI6IkkgY2Fubm90IHdhbGsgYXQgYWxsIHdpdGhv
+        dXQgaW5jcmVhc2luZyBwYWluLiIsInNjb3JlIjo1LjB9XX0seyJxdWVzdGlv
+        biI6IlNpdHRpbmciLCJ0eXBlIjoibXVsdGlwbGUiLCJvcHRpb25zIjpbeyJv
+        cHRpb24iOiJJIGNhbiBzaXQgaW4gYW55IGNoYWlyIGFzIGxvbmcgYXMgSSBs
+        aWtlLiIsInNjb3JlIjowLjB9LHsib3B0aW9uIjoiSSBjYW4gc2l0IGluIG15
+        IGZhdm91cml0ZSBjaGFpciBmb3IgYXMgbG9uZyBhcyBJIGxpa2UuIiwic2Nv
+        cmUiOjEuMH0seyJvcHRpb24iOiJQYWluIHByZXZlbnRzIG1lIGZyb20gc2l0
+        dGluZyBmb3IgbW9yZSB0aGFuIDEgaG91ci4iLCJzY29yZSI6Mi4wfSx7Im9w
+        dGlvbiI6IlBhaW4gcHJldmVudHMgbWUgZnJvbSBzaXR0aW5nIGZvciBtb3Jl
+        IHRoYW4gwr0gYW4gaG91ci4iLCJzY29yZSI6My4wfSx7Im9wdGlvbiI6IlBh
+        aW4gcHJldmVudHMgbWUgZnJvbSBzaXR0aW5nIGZvciBtb3JlIHRoYXQgMTAg
+        bWludXRlcy4iLCJzY29yZSI6NC4wfSx7Im9wdGlvbiI6IkkgYXZvaWQgc2l0
+        dGluZyBiZWNhdXNlIGl0IGluY3JlYXNlcyBwYWluIGltbWVkaWF0ZWx5LiIs
+        InNjb3JlIjo1LjB9XX0seyJxdWVzdGlvbiI6IlN0YW5kaW5nIiwidHlwZSI6
+        Im11bHRpcGxlIiwib3B0aW9ucyI6W3sib3B0aW9uIjoiSSBjYW4gc3RhbmQg
+        YXMgbG9uZyBhcyBJIHdhbnQgd2l0aG91dCBwYWluLiIsInNjb3JlIjowLjB9
+        LHsib3B0aW9uIjoiSSBoYXZlIHNvbWUgcGFpbiB3aGlsZSBzdGFuZGluZyBi
+        dXQgaXQgZG9lcyBub3QgaW5jcmVhc2Ugd2l0aCB0aW1lLiIsInNjb3JlIjox
+        LjB9LHsib3B0aW9uIjoiSSBjYW5ub3Qgc3RhbmQgZm9yIGxvbmdlciB0aGFu
+        IDEgaG91ciB3aXRob3V0IGluY3JlYXNpbmcgcGFpbi4iLCJzY29yZSI6Mi4w
+        fSx7Im9wdGlvbiI6IkkgY2Fubm90IHN0YW5kIGZvciBsb25nZXIgdGhhbiDC
+        vSBob3VyIHdpdGhvdXQgaW5jcmVhc2luZyBwYWluLiIsInNjb3JlIjozLjB9
+        LHsib3B0aW9uIjoiSSBjYW5ub3Qgc3RhbmQgZm9yIGxvbmdlciB0aGFuIDEw
+        IG1pbnV0ZXMgd2l0aG91dCBpbmNyZWFzaW5nIHBhaW4uIiwic2NvcmUiOjQu
+        MH0seyJvcHRpb24iOiJJIGF2b2lkIHN0YW5kaW5nIGJlY2F1c2UgaXQgaW5j
+        cmVhc2VzIHBhaW4gaW1tZWRpYXRlbHkuIiwic2NvcmUiOjUuMH1dfSx7InF1
+        ZXN0aW9uIjoiU2xlZXBpbmciLCJ0eXBlIjoibXVsdGlwbGUiLCJvcHRpb25z
+        IjpbeyJvcHRpb24iOiJJIGdldCBubyBwYWluIGluIGJlZC4iLCJzY29yZSI6
+        MC4wfSx7Im9wdGlvbiI6IkkgZ2V0IHBhaW4gaW4gYmVkIGJ1dCBpdCBkb2Vz
+        IG5vdCBwcmV2ZW50IG1ldCBmcm9tIHNsZWVwaW5nIHdlbGwuIiwic2NvcmUi
+        OjEuMH0seyJvcHRpb24iOiJCZWNhdXNlIG9mIHBhaW4gbXkgbm9ybWFsIHNs
+        ZWVwIGlzIHJlZHVjZWQgYnkgbGVzcyB0aGFuIDI1JS4iLCJzY29yZSI6Mi4w
+        fSx7Im9wdGlvbiI6IkJlY2F1c2Ugb2YgcGFpbiBteSBub3JtYWwgc2xlZXAg
+        aXMgcmVkdWNlZCBieSBsZXNzIHRoYW4gNTAlLiIsInNjb3JlIjozLjB9LHsi
+        b3B0aW9uIjoiQmVjYXVzZSBvZiBwYWluIG15IG5vcm1hbCBzbGVlcCBpcyBy
+        ZWR1Y2VkIGJ5IGxlc3MgdGhhbiA3NSUuIiwic2NvcmUiOjQuMH0seyJvcHRp
+        b24iOiJQYWluIHByZXZlbnRzIG1lIGZyb20gc2xlZXBpbmcgYXQgYWxsLiIs
+        InNjb3JlIjo1LjB9XX0seyJxdWVzdGlvbiI6IkNoYW5naW5nIGRlZ3JlZSBv
+        ZiBwYWluIiwidHlwZSI6Im11bHRpcGxlIiwib3B0aW9ucyI6W3sib3B0aW9u
+        IjoiTXkgcGFpbiBpcyByYXBpZGx5IGdldHRpbmcgYmV0dGVyLiIsInNjb3Jl
+        IjowLjB9LHsib3B0aW9uIjoiTXkgcGFpbiBmbHVjdHVhdGVzIGJ1dCBvdmVy
+        YWxsIGlzIGRlZmluaXRlbHkgZ2V0dGluZyBiZXR0ZXIuIiwic2NvcmUiOjEu
+        MH0seyJvcHRpb24iOiJNeSBwYWluIHNlZW1zIHRvIGJlIGdldHRpbmcgYmV0
+        dGVyIGJ1dCBpbXByb3ZlbWVudCBpcyBzbG93LiIsInNjb3JlIjoyLjB9LHsi
+        b3B0aW9uIjoiTXkgcGFpbiBpcyBuZWl0aGVyIGdldHRpbmcgYmV0dGVyIG9y
+        IHdvcnNlLiIsInNjb3JlIjozLjB9LHsib3B0aW9uIjoiTXkgcGFpbiBpcyBn
+        cmFkdWFsbHkgd29yc2VuaW5nLiIsInNjb3JlIjo0LjB9LHsib3B0aW9uIjoi
+        TXkgcGFpbiBpcyByYXBpZGx5IHdvcnNlbmluZy4iLCJzY29yZSI6NS4wfV19
+        LHsicXVlc3Rpb24iOiJTb2NpYWwgTGlmZSIsInR5cGUiOiJtdWx0aXBsZSIs
+        Im9wdGlvbnMiOlt7Im9wdGlvbiI6Ik15IHNvY2lhbCBsaWZlIGlzIG5vcm1h
+        bCBhbmQgZ2l2ZXMgbWUgbm8gZXh0cmEgcGFpbi4iLCJzY29yZSI6MC4wfSx7
+        Im9wdGlvbiI6Ik15IHNvY2lhbCBsaWZlIGlzIG5vcm1hbCBidXQgaW5jcmVh
+        c2VzIHRoZSBkZWdyZWUgb2YgcGFpbi4iLCJzY29yZSI6MS4wfSx7Im9wdGlv
+        biI6IlBhaW4gaGFzIG5vIHNpZ25pZmljYW50IGVmZmVjdCBvbiBteSBzb2Np
+        YWwgbGlmZSBhcGFydCBmcm9tIGxpbWl0aW5nIG15IG1vcmUgZW5lcmdldGlj
+        IGludGVyZXN0cyAoZWcgZGFuY2luZywgZXRjKS4iLCJzY29yZSI6Mi4wfSx7
+        Im9wdGlvbiI6IlBhaW4gaGFzIHJlc3RyaWN0ZWQgbXkgc29jaWFsIGxpZmUg
+        YW5kIEkgZG8gbm90IGdvIG91dCB2ZXJ5IG9mdGVuLiIsInNjb3JlIjozLjB9
+        LHsib3B0aW9uIjoiUGFpbiBoYXMgcmVzdHJpY3RlZCBteSBzb2NpYWwgbGlm
+        ZSB0byBteSBob21lLiIsInNjb3JlIjo0LjB9LHsib3B0aW9uIjoiSSBoYXZl
+        IGhhcmRseSBhbnkgc29jaWFsIGxpZmUgYmVjYXVzZSBvZiB0aGUgcGFpbi4i
+        LCJzY29yZSI6NS4wfV19LHsicXVlc3Rpb24iOiJUcmF2ZWxpbmciLCJ0eXBl
+        IjoibXVsdGlwbGUiLCJvcHRpb25zIjpbeyJvcHRpb24iOiJJIGdldCBubyBw
+        YWluIHdoaWxlIHRyYXZlbGluZy4iLCJzY29yZSI6MC4wfSx7Im9wdGlvbiI6
+        IkkgZ2V0IHNvbWUgcGFpbiB3aGlsZSB0cmF2ZWxpbmcgYnV0IG5vbmUgb2Yg
+        bXkgdXN1YWwgZm9ybXMgb2YgdHJhdmVsIG1ha2UgaXQgd29yc2UuIiwic2Nv
+        cmUiOjEuMH0seyJvcHRpb24iOiJJIGdldCBleHRyYSBwYWluIHdoaWxlIHRy
+        YXZlbGluZyBidXQgaXQgZG9lcyBub3QgY2F1c2UgbWUgdG8gc2VlayBhbHRl
+        cm5hdGUgZm9ybXMgb2YgdHJhdmVsLiIsInNjb3JlIjoyLjB9LHsib3B0aW9u
+        IjoiSSBnZXQgZXh0cmEgcGFpbiB3aGlsZSB0cmF2ZWxpbmcgd2hpY2ggY2F1
+        c2UgbWUgdG8gc2VlayBhbHRlcm5hdGUgZm9ybXMgb2YgdHJhdmVsLiIsInNj
+        b3JlIjozLjB9LHsib3B0aW9uIjoiUGFpbiByZXN0cmljdHMgYWxsIGZvcm1z
+        IG9mIHRyYXZlbCBleGNlcHQgdGhhdCBkb25lIHdoaWxlIGx5aW5nIGRvd24u
+        Iiwic2NvcmUiOjQuMH0seyJvcHRpb24iOiJQYWluIHJlc3RyaWN0cyBhbGwg
+        Zm9ybXMgb2YgdHJhdmVsLiIsInNjb3JlIjo1LjB9XX0seyJxdWVzdGlvbiI6
+        IlByZXZpb3VzIFRyZWF0bWVudCAtIE92ZXIgdGhlIHBhc3QgdGhyZWUgbW9u
+        dGhzIGhhdmUgeW91IHJlY2VpdmVkIHRyZWF0bWVudCwgdGFibGV0cyBvciBt
+        ZWRpY2luZXMgb2YgYW55IGtpbmQgZm9yIHlvdXIgYmFjayBvciBsZWcgcGFp
+        bj8gKFBsZWFzZSB0aWNrIHRoZSBhcHByb3ByaWF0ZSBib3guICkiLCJ0eXBl
+        IjoibXVsdGlwbGUiLCJvcHRpb25zIjpbeyJvcHRpb24iOiJZZXMiLCJzY29y
+        ZSI6MC4wfSx7Im9wdGlvbiI6Ik5vIiwic2NvcmUiOjEuMH1dfV19
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 19:23:45 GMT
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/12345/programs/enyjeaor/proms/2166
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Sat, 16 Jun 2018 19:23:45 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d05edf0bcd1ebd214104da8084a182bc21529177025; expires=Sun, 16-Jun-19
+        19:23:45 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 404 Not Found
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - f32ecb6a-a893-4d36-a1ab-ffe0f7b3b83f
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.020539'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42bfa7190e27bb18-SEA
+    body:
+      encoding: UTF-8
+      string: '{"errors":["Client with given id does not exist"]}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 19:23:45 GMT
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/8205/programs/nah_son/proms/2166
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Sat, 16 Jun 2018 19:23:46 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d6df009cfdc986e0f7c9c08bceed8a9da1529177025; expires=Sun, 16-Jun-19
+        19:23:45 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 404 Not Found
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - f927e1b8-972d-48a2-9541-6d36acb81d42
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.022840'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42bfa71c29c2bcc8-SEA
+    body:
+      encoding: UTF-8
+      string: '{"errors":["Program with given access code does not exist"]}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 19:23:46 GMT
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/8205/programs/enyjeaor/proms/5253
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Sat, 16 Jun 2018 19:23:46 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=dd57e8146965c07eafd48e5be1dac79881529177026; expires=Sun, 16-Jun-19
+        19:23:46 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 404 Not Found
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - f14ed24d-aa16-4a8c-9d2e-00e1e999f3f7
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.024843'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42bfa71edc2b29ef-SEA
+    body:
+      encoding: UTF-8
+      string: '{"errors":["PROM with given id does not exist"]}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 19:23:46 GMT
+recorded_with: VCR 3.0.3

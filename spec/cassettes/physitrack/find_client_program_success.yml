@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/8224/programs/ohidcced
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 19 Jun 2018 07:29:49 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=dcad3ff0de0e0c13244b96e3cdb4a43b21529393388; expires=Wed, 19-Jun-19
+        07:29:48 GMT; path=/; domain=.physitrack.com; HttpOnly
+      - _physitrack_session=dTRaZDBMZEFFQTNuU254emxwdGNaTDFOL3B4NHV1cDE3ZWk3QmxMa0pqd1NEbzBDWlorQ0o2cXFRZGUvWUI3QmVTenNzQlRxdUhSaXpra1BjekF5STlub0J3V0RFWTNZYWFOQlh1K1hscDlHNkg2ZXdSL3ErclUrVngwUTZhZEpiSTdSMnYyeFBRcDhDMU9FNzZPSUVUL3RWZU1jSXEvWkFRSFEvd3kzaHRYejFqUzNDUjJlTk5nWUQvdDNDbHg5dDBvN2Rhc0FQMDdtSytHRVIzOEppWXRZSVg1U0RKQ0ovanZpcFVTc1hGTmpyTloralZlUXlzTTFEVzVld0E2RnQrYUdHeVZFVzIxNG1mRUloTTV5T1E9PS0tRFZDSnVWQVBoMDJlS0wzMEFRS1RoZz09--bd722e610c7c2d34fb4aa49e937a1fac20fac1af;
+        path=/; expires=Tue, 03 Jul 2018 07:29:58 -0000; secure; HttpOnly
+      status:
+      - 200 OK
+      cache-control:
+      - max-age=0, private, must-revalidate
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - 96dfce39-f278-4a04-9c8f-73213621e989
+      x-download-options:
+      - noopen
+      etag:
+      - W/"425951e923a0e85ca9f6c534508bc753"
+      x-runtime:
+      - '0.046158'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42d4496888b1bc92-SEA
+    body:
+      encoding: UTF-8
+      string: '{"id":7596,"external_id":"test_1","template_id":1262,"name":"Relaxed
+        breathing \u0026 nasal preparation","access_code":"ohidcced","start_date":"2018-06-14T00:00:00Z","end_date":"2018-07-13T00:00:00Z","track_adherence":true,"track_pain_levels":true,"access_code_sent_date":"2018-06-17T22:07:22Z","access_code_sent_via":"email","last_access_date":"2018-06-15T03:08:44Z"}'
+    http_version: '1.1'
+  recorded_at: Tue, 19 Jun 2018 07:29:49 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://staging.physitrack.com/api/v2/clients/7999
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 422
+      message: Unprocessable Entity
+    headers:
+      date:
+      - Tue, 19 Jun 2018 07:29:17 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d5d0d818dcc5ede1ae0e64506223e2b901529393357; expires=Wed, 19-Jun-19
+        07:29:17 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 422 Unprocessable Entity
+      cache-control:
+      - no-cache
+      strict-transport-security:
+      - max-age=631138519
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - 1e185dfc-ee5f-4377-a27d-54e0905e9ebb
+      x-download-options:
+      - noopen
+      x-runtime:
+      - '0.022310'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42d448a12db1bb18-SEA
+    body:
+      encoding: UTF-8
+      string: '{"errors":["external_id is missing","first_name is missing","last_name
+        is missing","gender is missing","gender must be one of: m, f","year_of_birth
+        is missing"]}'
+    http_version: '1.1'
+  recorded_at: Tue, 19 Jun 2018 07:29:17 GMT
+recorded_with: VCR 3.0.3

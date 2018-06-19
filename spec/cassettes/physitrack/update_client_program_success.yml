@@ -1,0 +1,157 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://staging.physitrack.com/api/v2/clients/7999/programs/eesmsfqb
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sat, 16 Jun 2018 00:42:45 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d6009f42008117a505ad6c7dbba870c2e1529109765; expires=Sun, 16-Jun-19
+        00:42:45 GMT; path=/; domain=.physitrack.com; HttpOnly
+      - _physitrack_session=U2ZmMGhjT0s4UUttMHl0dWdMaW12R1IyMG1ndkhhRTNMZjRaNEEzQ2NQd0c1UmE1alFvZThNYkVVUDJLQVhiVllQamFxQ3BQTUtBVGljZHZVRzhMQkZ3TWR4UU9UL0dpeWtvcE5RUWVKdFhRQVJwUTA2cEpLeEkwVjJHMGVWTVlwTDlsSkpEbVZudDBHbGhhRjlCL1M4NVBGdlVXMXVaNXRqc0JJQU1NcUFrSUF5MlpTZFZuV1A1bzN1aTZuOXYxR01CWmFVdHZkcFdYQ3g1MVBpSXQ3TnZzYWR5N014RXBsaWpUbndoajdzZ3UwMlpNWWJCeEJGTXQ4VFhXTUF5TnI1UTM2OGVza2FWdkJFUzBlYWlKVmc9PS0tNDFCWEYxU0Nhc0t0b1FpY0kva0svZz09--e6c2aa81c4f79863219528439f069995a041b3bd;
+        path=/; expires=Sat, 30 Jun 2018 00:42:50 -0000; secure; HttpOnly
+      status:
+      - 200 OK
+      cache-control:
+      - max-age=0, private, must-revalidate
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - 64d02b0f-6c04-4783-a277-7490e11a1428
+      x-download-options:
+      - noopen
+      etag:
+      - W/"9a6bedec25214238c9ae902a4c48ba3c"
+      x-runtime:
+      - '0.067830'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42b93d010a5579a9-SEA
+    body:
+      encoding: UTF-8
+      string: '{"id":7637,"external_id":"assign_program_id-123","template_id":1148,"name":"Foot
+        fracture","access_code":"eesmsfqb","start_date":"2018-06-15T00:00:00Z","end_date":"2018-09-14T00:00:00Z","track_adherence":true,"track_pain_levels":true,"access_code_sent_date":"2018-06-16T00:06:10Z","access_code_sent_via":"email","last_access_date":null}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 00:42:45 GMT
+- request:
+    method: put
+    uri: https://staging.physitrack.com/api/v2/clients/7999/programs/spimyean
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Sat, 16 Jun 2018 00:44:43 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d9a99fbd01e02e1d9738e45c939b630aa1529109883; expires=Sun, 16-Jun-19
+        00:44:43 GMT; path=/; domain=.physitrack.com; HttpOnly
+      - _physitrack_session=MXpORWVjbjVnckVERE1CeVdPbGNNV3JFSkZKZlhqeHJGMWMzZGwrRkhxTXRDODhLNkpZMnVLWFl1cTlLY0tBeHE3c0tadHFDMHd3WjVjd2l5NHIxTWJyM3kxMGNmWnU3aXRUQmNPbHdQL2RtVEhGN0dTQWZZUG43TDQ4amtUbTdDQkdtckVtczBwUkxjNXNTbzZtbENwRnEza0FaZDdQRmJpU3B2UmprNUNLUG5aMEdrM2NXdEg3eW9CWERBQWUvakRqWU1JMU54WFhKM3loYjdHTWlsM3F1dkk1eEVia3FyampUcCtCd3cyVlVlekxpK3psVHVQMml1aDRyam15U2tkYU5zTE9qTDdXVmkweXNYZW9ybnc9PS0tWm54QzNuL3N3QzhNK2QzRldxU0Jadz09--7c73bdebfe36127d7e5d8b987664c60378f831c9;
+        path=/; expires=Sat, 30 Jun 2018 00:44:48 -0000; secure; HttpOnly
+      status:
+      - 200 OK
+      cache-control:
+      - max-age=0, private, must-revalidate
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - f49be42c-24fe-427a-835e-470f981784ca
+      x-download-options:
+      - noopen
+      etag:
+      - W/"d714dd2cee950fd85c87e3eaafdcdf3f"
+      x-runtime:
+      - '0.045642'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42b93fe2be0a79a3-SEA
+    body:
+      encoding: UTF-8
+      string: '{"id":7639,"external_id":"test_1","template_id":1200,"name":"Core stability
+        programme - advanced (Aquatic therapy)","access_code":"spimyean","start_date":"2018-06-15T00:00:00Z","end_date":"2018-08-09T00:00:00Z","track_adherence":true,"track_pain_levels":true,"access_code_sent_date":"2018-06-16T00:44:08Z","access_code_sent_via":"email","last_access_date":null}'
+    http_version: '1.1'
+  recorded_at: Sat, 16 Jun 2018 00:44:43 GMT
+recorded_with: VCR 3.0.3

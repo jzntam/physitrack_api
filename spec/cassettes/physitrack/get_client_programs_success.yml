@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://staging.physitrack.com/api/v2/clients/8224/programs?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - application/json
+      content-type:
+      - application/json
+      x-api-key:
+      - valid_api_key
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 19 Jun 2018 07:31:12 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d753f55adf1f452b4330f82fc3745752e1529393472; expires=Wed, 19-Jun-19
+        07:31:12 GMT; path=/; domain=.physitrack.com; HttpOnly
+      status:
+      - 200 OK
+      cache-control:
+      - max-age=0, private, must-revalidate
+      strict-transport-security:
+      - max-age=631138519
+      - max-age=31536000; includeSubdomains; preload
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - 1; mode=block
+      x-request-id:
+      - 93160f4d-72c6-4e10-8e82-c2f98b663b59
+      x-download-options:
+      - noopen
+      etag:
+      - W/"87505264fbac7c8f6aef07970d6883a8"
+      x-runtime:
+      - '0.042677'
+      x-frame-options:
+      - sameorigin
+      x-content-type-options:
+      - nosniff
+      content-security-policy:
+      - 'default-src ''self'' ''unsafe-inline'' https:; child-src ''self'' blob: https:;
+        connect-src ''self'' https: wss://*.tokbox.com wss://realtime.ably.io/ sentry.io/;
+        font-src * data:; img-src ''self'' data: https: cdn.physitrack.com *.physitrack.com.s3.amazonaws.com;
+        media-src ''self'' blob: https: devphysitrackvoiceovers.s3.amazonaws.com stagingphysitrackvoiceovers.s3.amazonaws.com
+        physitrackvoiceovers.s3.amazonaws.com; object-src ''self'' ''unsafe-inline''
+        https:; script-src ''self'' ''unsafe-inline'' ''unsafe-eval'' https: about:
+        localhost:3808 127.0.0.1:3808 assets.customer.io/ cdn.livechatinc.com/; style-src
+        ''self'' ''unsafe-inline'' 127.0.0.1:3808 localhost:3808 https:'
+      x-powered-by:
+      - Phusion Passenger
+      expect-ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      server:
+      - cloudflare
+      cf-ray:
+      - 42d44b719ffbbcce-SEA
+    body:
+      encoding: UTF-8
+      string: '{"programs":[{"id":7596,"external_id":"test_1","template_id":1262,"name":"Relaxed
+        breathing \u0026 nasal preparation","access_code":"ohidcced","start_date":"2018-06-14T00:00:00Z","end_date":"2018-07-13T00:00:00Z","track_adherence":true,"track_pain_levels":true,"access_code_sent_date":"2018-06-17T22:07:22Z","access_code_sent_via":"email","last_access_date":"2018-06-15T03:08:44Z"}]}'
+    http_version: '1.1'
+  recorded_at: Tue, 19 Jun 2018 07:31:12 GMT
+recorded_with: VCR 3.0.3
