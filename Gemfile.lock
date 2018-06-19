@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    physitrack_api (0.2.0)
+    physitrack_api (0.2.1)
       activesupport (= 3.2.22)
       httparty (= 0.13.5)
 

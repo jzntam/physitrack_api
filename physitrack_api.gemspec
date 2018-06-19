@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jzntam@gmail.com"]
 
   spec.summary       = "A simple Ruby wrapper for consuming the Physitrack API"
-  spec.homepage      = "https://www.github.com/jzntam/physitrack_client"
+  spec.homepage      = "https://www.github.com/jzntam/physitrack_api"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
