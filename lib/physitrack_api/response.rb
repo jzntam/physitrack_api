@@ -26,6 +26,10 @@ module PhysitrackApi
       @payload.keys
     end
 
+    def data
+      @payload
+    end
+
     def method_missing(method_name, *args, &block)
       return super unless @payload.is_a?(Hash)
 
